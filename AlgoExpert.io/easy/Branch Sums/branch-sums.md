@@ -1,4 +1,4 @@
-### Branch Sums
+# Branch Sums
 This function accepts a binary tree as input and returns a list of its branch sums
 ordered from the leftmost branch sum to the rightmost branch sum.
 
@@ -7,7 +7,7 @@ A branch sum is the sum of all values in that branch.
 A branch is a path of nodes from the root node to a leaf node. 
 
 
-# Recursive Approach (C++)
+### Recursive Approach (C++)
 ```cpp
 using namespace std;
 
@@ -53,5 +53,5 @@ vector<int> branchSums(BinaryTree* root, int sum=0) {
 }
 ```
 
-# Complexity
+### Complexity
 O(n) time & O(n) space complexity, where n is the number of nodes in the input tree.
