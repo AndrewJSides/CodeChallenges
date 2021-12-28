@@ -42,4 +42,4 @@ bool isValidSubsequence(vector<int> array, vector<int> sequence)
 ```
 
 ### Complexity
-O(n) time & O(n) space complexity, where n is the number of nodes in the input tree.
+O(n) time & O(n) space complexity, where n is the number of items in the first array.
