@@ -1,3 +1,17 @@
+# Validate Subsequence
+Given two non-empty arrays of ints, this function determines whether the second array is a subsequence of the first.
+A subsequence is a set that are in the same order as they appear in the array. They need not be adjacent.
+
+For example, seq is a valid subsequence of array:
+```Py
+array = [5, 1, 22, 25, 6, -1, 8, 10]
+seq = [6, 22, 6, 10]
+```
+
+
+### Recursive Solution (C++)
+
+```cpp
 using namespace std;
 
 bool isValidSubsequence(vector<int> array, vector<int> sequence)
@@ -25,3 +39,7 @@ bool isValidSubsequence(vector<int> array, vector<int> sequence)
 
     return false;
 }
+```
+
+### Complexity
+O(n) time & O(n) space complexity, where n is the number of nodes in the input tree.
